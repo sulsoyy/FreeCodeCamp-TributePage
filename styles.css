@@ -1,0 +1,282 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+
+}
+
+figcaption {
+    font-size: 14px;
+    text-align: center;
+}
+
+.white-text {
+    color: rgba(255, 255, 255, 0.932);
+}
+
+@media (min-width: 1000px) {
+    figure  {
+        padding-left: 10vw;
+        padding-right: 10vw;
+        
+
+    }
+}
+
+@media (max-width: 800px){
+    body {
+        font-size: 16px;
+    }
+    
+    .title h1 {
+        font-size: 3em;
+    }
+    
+    #description {
+        font-size: 1.2em;
+    }
+    .profile {
+        padding-top: 0vh;
+    }
+    .profile-container {
+        flex-wrap: wrap-reverse;
+        padding-top: 0vh;
+        margin-top: 0vh;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+    .profile-picture-container {
+        padding: 8vmin;
+    }
+    
+    
+}
+
+@media (max-width: 350px) {
+    body {
+        font-size: 5vmin;
+    }
+    .title h1 {
+        font-size: 2.4em;
+    }
+    
+    #description {
+        font-size: 1.0em;
+    }
+
+    #quote-text {
+        font-size: 14px;
+    }
+
+    .profile-container {
+        flex-wrap: wrap-reverse;
+        padding-top: 0vh;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+    .profile-picture-container {
+        padding: 10vmin;
+    }
+    .quoteby {
+        font-size: 4vmin !important;
+    }
+    #tribute-info h2, .Impacts-on-society h3 {
+        font-size: 1.5em !important;
+
+    }
+    
+
+}
+
+
+
+header {
+    color: rgba(255, 255, 255, 0.932);
+}
+
+header h1 {
+    font-size: 4.5em;
+    
+    text-align: center;
+    margin-bottom: -1vh;
+}
+
+header h2 {
+    font-size: 1.5em;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 3vh;
+}
+
+.breakline1 {
+    display: flex;
+    margin: 0vh;
+    border-style: block;
+    border-width: 10px;
+}
+
+.top-background {
+    background-color:rgb(18, 24, 18);
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+.profile{
+    background-color: rgb(18, 24, 18);
+    padding-bottom: 4vh;
+
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.profile-info {
+
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin: 2vmin;
+    flex: 1 1 70vw;
+   
+}
+
+.name {
+    font-size: 2em;
+}
+
+.birth {
+    font-size: 1.5em;
+}
+
+.name-birth {
+    text-align: center;
+    
+
+}
+
+.quote-container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.05em;
+    text-align: center;
+}
+
+
+.profile-picture-container { 
+    flex: 1 1 60vw;
+    width: 40vw;
+    margin: 7vw;
+}
+
+ #profile-picture {
+    display: flex;
+    position: relative;
+    object-fit: contain;
+    max-width:  100%;
+    height: auto;
+    align-content: center;
+    border-radius: 30%;
+}
+
+
+#tribute-info {
+    padding-top: 3vmin;
+    padding-bottom: 3vmin;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+#tribute-info h2{ 
+    font-size: 35px;
+}
+
+
+
+figure {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+#rugby-photo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.Impacts-on-society {
+    background-color: rgba(1, 12, 0, 0.904);
+    color: rgba(255, 255, 255, 0.932);
+    width: auto;
+    box-sizing:border-box;
+    padding: 0.1vmin 2vmin 5vmin 2vmin;
+}
+
+.Impacts-on-society h3 {
+    font-size: 30px;
+    margin-left: 2vw;
+}
+
+
+.breakline2 {
+    display: block;
+    margin: 0vw;
+    border-width: 10px;
+    border-style: inset;
+}
+
+.final-quote{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+blockquote p {
+    text-align: center; 
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+}
+
+.quoteby {
+    font-size: 14px;
+}
+
+.conclusion {
+    padding: 2vmax 0vmax 2vmax 0vmax;
+    background: linear-gradient(180deg, rgba(1, 12, 0, 0.904), rgba(1, 12, 0, 0.904));
+}
+.conclusion p {
+    padding: 0vmin 4vmin 0vmin 4vmin;
+}
+
+.info-link {
+    padding-top: 3vmin;
+    padding-bottom: 2vmin;
+    margin-left: 2vmin;
+}
+
+.info-link p i {
+    font-weight: 550;
+}
+
+a:link { 
+    color:rgb(29, 36, 105);
+
+}
+
+a:visited {
+    color: rgba(109, 83, 28, 0.89);
+}
+
+footer {
+    background-color: rgba(1, 1, 29, 0.89);
+}
+
+footer p {
+    text-align: center;
+}
+
+.top-and-bottom {
+    background-color: rgba(1, 1, 29, 0.89);
+    padding: 0vmin 0vmin 10vmin 0vmin
+}
